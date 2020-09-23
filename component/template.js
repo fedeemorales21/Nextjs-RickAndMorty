@@ -5,7 +5,7 @@ const Template = props => (
     <div>
         <Header/>
         <Navigation/>
-        <div className="container">
+        <div className="container p-3">
             {props.children}
         </div>
     </div>
